@@ -31,38 +31,6 @@ p {
   text-align: left;
 }
 
-@media (max-width: 750px) {
-  h1 {
-    font-size: 50px;
-  }
-  h2 {
-    text-align: center !important;
-    font-size: 40px;
-  }
-
-  h3 {
-    padding: 5px;
-  }
-  p {
-    text-align: center;
-    padding: 5px;
-  }
-  .home-img {
-    display: none;
-  }
-
-  .portfolio-links a {
-    display: block;
-    max-width: 100% !important;
-    text-align: center;
-  }
-
-  .email-link {
-    font-size: 20px !important;
-    padding-top: 10px;
-  }
-}
-
 .main-wrap {
   margin: 100px auto;
 }
@@ -122,4 +90,36 @@ p {
 .portfolio-links {
   display: block;
   margin-left: 0;
+}
+
+@media (max-width: 750px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    text-align: center !important;
+    font-size: 40px;
+  }
+
+  h3 {
+    padding: 5px;
+  }
+  p {
+    text-align: center;
+    padding: 5px;
+  }
+  .home-img {
+    display: none;
+  }
+
+  .portfolio-links a {
+    display: block;
+    max-width: 100% !important;
+    text-align: center;
+  }
+
+  .email-link {
+    font-size: 20px !important;
+    padding-top: 10px;
+  }
 }
